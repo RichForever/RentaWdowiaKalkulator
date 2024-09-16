@@ -1,6 +1,7 @@
 {
   "name": "renta-wdowia",
   "version": "0.1.0",
+  "homepage": "https://RichForever.github.io/velobank-cashback-calculator",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.11.3",
@@ -26,7 +27,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "npx prettier . --write"
+    "format": "npx prettier . --write",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.14",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.40",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.5",
