@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_headers_buttons",
+  "info": {
+    "displayName": "buttons",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "blue"
+      ],
+      "default": "light"
+    }
+  }
+}

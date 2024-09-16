@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_headers_section_headers",
+  "info": {
+    "displayName": "Section header",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.buttons"
+    }
+  }
+}

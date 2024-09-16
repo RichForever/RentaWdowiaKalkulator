@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_utils_width_controls",
+  "info": {
+    "displayName": "widthControl",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "enum": [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl"
+      ]
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "w-25",
+        "w-33",
+        "w-50",
+        "w-75",
+        "w-100"
+      ]
+    }
+  }
+}

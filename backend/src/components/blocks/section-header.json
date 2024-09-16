@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_section_headers",
+  "info": {
+    "displayName": "SectionHeader",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.buttons"
+    },
+    "isSectionFullHeight": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+:root {
+  --navbar-height: 0px; /* Default value, will be updated dynamically */
+}
+
+input::-webkit-date-and-time-value {
+  text-align: left;
+}
+
+input[type="number"],
+input[type="radio"],
+input[type="text"],
+input[type="date"] {
+  @apply focus:!border-blue-500 focus:!ring-0;
+}
+
+button {
+  @apply focus:!ring-0;
+}

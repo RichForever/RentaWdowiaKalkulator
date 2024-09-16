@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_buttons",
+  "info": {
+    "displayName": "buttons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_new"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "default"
+      ],
+      "default": "primary"
+    }
+  }
+}

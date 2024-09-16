@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "monitor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.header"
+    },
+    "text": {
+      "type": "string"
+    },
+    "buttons": {
+      "displayName": "buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.buttons"
+    }
+  }
+}
